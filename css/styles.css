@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: "Kumbh Sans", sans-serif;
   background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-  background-position: left -10.5rem top -21rem, right -7rem bottom -75rem;
+  background-position: left -19rem top -34rem, right -15rem bottom -82rem;
   background-repeat: no-repeat;
 }
 
@@ -18,20 +18,16 @@ body {
   position: absolute;
   margin: auto;
   top: 0; left: 0; right: 0; bottom: 0;
-
   border-radius: 1rem;
 }
 
 .card-pattern {
-  /* margin: auto; */
   position: relative;
   width: 21rem;
   border-radius: 1rem 1rem 0 0;
 }
 
 .victor{
-  /* margin: auto;
-  top: 50px; */
   border-radius: 100%;
   border: solid white 0.3rem;
 }
@@ -58,7 +54,6 @@ span {
   font-weight: 400;
   font-size: 0.9rem;
   color: hsl(0, 0%, 59%);
-
 }
 
 hr {
@@ -66,7 +61,6 @@ hr {
   top: -3.2rem;
   border: dotted #cfd3ce 0.5px;
   border-bottom: none;
-  /* margin: 5px auto; */
 }
 
 .card-body {
