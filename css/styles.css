@@ -1,7 +1,98 @@
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-position: left -10.5rem top -21rem, right -7rem bottom -75rem;
+  background-repeat: no-repeat;
 }
 
 .card {
-  
+
+  height: 23rem;
+  width: 21rem;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; right: 0; bottom: 0;
+
+  border-radius: 1rem;
+}
+
+.card-pattern {
+  /* margin: auto; */
+  position: relative;
+  width: 21rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.victor{
+  /* margin: auto;
+  top: 50px; */
+  border-radius: 100%;
+  border: solid white 0.3rem;
+}
+
+.card-header {
+  position: relative;
+  top: -3.6rem;
+  bottom: 0;
+}
+
+.name {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 59%);
+
+}
+
+hr {
+  position: relative;
+  top: -3.2rem;
+  border: dotted #cfd3ce 0.5px;
+  border-bottom: none;
+  /* margin: 5px auto; */
+}
+
+.card-body {
+  display: inline-flex;
+  position: relative;
+  top: -3.2rem;
+}
+
+.likes {
+  margin: 0 60px;
+}
+
+.number {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-top: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.attribution {
+    font-size: 0.6rem;
+    position: relative;
+    top: 38rem;
 }
