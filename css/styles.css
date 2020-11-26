@@ -40,6 +40,7 @@ body {
   position: relative;
   top: -3.6rem;
   bottom: 0;
+  font-size: 1.2rem;
 }
 
 .name {
@@ -71,21 +72,23 @@ hr {
 .card-body {
   display: inline-flex;
   position: relative;
-  top: -3.2rem;
+  top: -3.3rem;
 }
 
 .likes {
-  margin: 0 60px;
+  margin: 0 50px;
 }
 
 .number {
   font-weight: 700;
+  font-size: 1.1rem;
   color: hsl(229, 23%, 23%);
   margin-top: 1.2rem;
-  margin-bottom: 0.3rem;
 }
 
 .title {
+  position: relative;
+  margin-top: -0.6rem;
   font-weight: 400;
   font-size: 0.7rem;
   color: hsl(0, 0%, 59%);
